@@ -20,4 +20,4 @@ var myItems = [
   "question two"
   ];
   
-document.write("<p>" + myItems + "</p>" );
+document.write("<p>" + myItems[0] + "</p>" );
