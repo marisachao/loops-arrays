@@ -16,8 +16,8 @@ document.write("<ol>" + list + "</ol>");
 // array
 
 var myItems = [
-  "question one", 
-  "question two"
+  ["question one", "answer one"], 
+  ["question two", "answer two"]
   ];
   
-document.write("<p>" + myItems[0] + "</p>" );
+document.write("<p>" + myItems[1][1] + "</p>" );
