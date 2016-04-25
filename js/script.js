@@ -20,8 +20,14 @@ var myItems = [
   ["question two", "answer two"]
   ];
   
+var secondList="<ul>";
+  
 while (i < myItems.length) {
-  document.write("<li>" + myItems[i] + "</li>" );
+  secondList += ("<li>" + myItems[i] + "</li>" );
 }
+
+secondList += "</ul>";
+
+document.write(secondList);
   
 
