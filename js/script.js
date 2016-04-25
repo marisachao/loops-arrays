@@ -16,7 +16,7 @@ document.write("<ol>" + list + "</ol>");
 // array
 
 var myItems = [
-  "question one",
+  "question one", 
   "question two"
   ];
   
